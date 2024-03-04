@@ -1,0 +1,15 @@
+service: football-ui
+
+plugins:
+  - serverless-finch
+
+provider:
+  name: aws
+  stage: ${opt:stage, 'prod'}
+  region: ${env:AWS_REGION, 'eu-west-2'}
+
+custom:
+  client:
+    bucketName: football-ui-website # (see Configuration Parameters below)
+    distributionFolder: build
+    bucketPolicyFile: deployment/policy.json
