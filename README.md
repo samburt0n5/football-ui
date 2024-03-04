@@ -37,4 +37,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Deployment
 
+** Ensure you have a REGION env var set `export REGION=eu-west-2`
+
 ### `sls client deploy --region $REGION`
