@@ -10,6 +10,6 @@ provider:
 
 custom:
   client:
-    bucketName: football-ui-website # (see Configuration Parameters below)
+    bucketName: www.football-api.net # (see Configuration Parameters below)
     distributionFolder: build
     bucketPolicyFile: deployment/policy.json

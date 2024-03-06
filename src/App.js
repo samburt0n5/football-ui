@@ -28,7 +28,7 @@ function ScoresFixtures({gameweek}) {
       <div>
         {results ? results.map((result, index) => (
             <div key={index}>
-              <ul>{result.club1} {result.club1Score} - {result.club2Score} {result.club2} </ul>
+              <ul>{result.club1} {result.club1Score ? result.club1Score + " - " : " - " + result.dateTime + " - "} {result.club2Score} {result.club2} </ul>
             </div>
           ))
           : null}
