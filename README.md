@@ -37,6 +37,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Deployment
 
-**Note: Ensure you have a REGION env var set `export REGION=eu-west-2`**
+To deploy website to s3 bucket which uses serverless' serverless-finch plugin.
 
 ### `sls client deploy`
